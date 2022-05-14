@@ -1,8 +1,7 @@
 ## Build Process
 
 - Clone or download the repo
-- `npm i` to install dependencies
-- `yarn run start` to start the local development server
+- DIRECTIONS PENDING
 
 ## Contribution Process
 

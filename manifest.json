@@ -16,6 +16,19 @@
     "64": "images/camera64.png",
     "128": "images/camera128.png"
   },
-  "permissions": ["activeTab"],
-  "manifest_version": 2
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "activeTab",
+    "desktopCapture",
+    "downloads"
+  ],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ]
 }
