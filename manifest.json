@@ -10,7 +10,7 @@
     "128": "./images/camera128.png"
   },
   "action": {
-    "default_popup": "./screenshot.html",
+    "default_popup": "./popup.html",
     "default_icon": {
       "16": "./images/camera16.png",
       "32": "./images/camera32.png",
