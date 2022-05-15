@@ -11,6 +11,7 @@ chrome.browserAction.onClicked.addListener(() => {
         let view = views[i];
         if (view.location.href == viewTabUrl) {
           view.setScreenshotUrl(screenshotUrl);
+          view.getCurrentTab();
           break;
         }
       }
