@@ -1,25 +1,28 @@
-import React from 'react'
-import '../app.css'
+import React from "react";
+import "../app.css";
 
 function Description() {
   return (
     <div>
-        <h2>What's In The Drawer?</h2>
-        <p>
-            The Junk Drawer is a creation by Luke and Jake Flaherty that uses a Google Chrome Extension to take a screenshot of the page you are currently on.
-            With this screenshot, which we have labelled "junk" we will store it in a massive gallery, or "junk drawer."
-        </p>
-        <p>
-            You are meant to take screenshots of any page that 
-            you deem important or helpful. Any screenshot you take is stored in your own personal "drawer" with a sharable limk that you can show anyone.
-            This link you can show to anyone and they can view what you've stored.
-        </p>
-        <br></br>
-        <p>
-            For access to the Google Chrome Extension click the button below!
-        </p>
+      <h2>What's In The Drawer?</h2>
+      <p class="shrink">
+        <strong>The Junk Drawer</strong> is a creation by Luke and Jake Flaherty
+        that uses a <strong>Google Chrome Extension</strong> to take a
+        screenshot of the page you are currently on. With this screenshot, which
+        we have labelled "junk" we will store it in a massive gallery, or "junk
+        drawer."
+      </p>
+      <p class="shrink">
+        Whatever webpage page you are on, add to your junk drawer via the
+        extension and build your collection of helpful information that you will
+        be able to share with your family and friends!
+      </p>
+      <br></br>
+      <p class="shrink">
+        For access to the Google Chrome Extension click the button below!
+      </p>
     </div>
-  )
+  );
 }
 
-export default Description
+export default Description;
